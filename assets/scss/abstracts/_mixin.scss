@@ -1,0 +1,24 @@
+//mixin 
+@mixin border-radius($radius){
+    border-radius: $radius;
+}
+
+@mixin border-shadow(){
+    box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+@mixin box-pading($pading){
+    padding: $pading;
+}
+
+@mixin box-margin-bottom($margin){
+    margin-bottom: $margin;
+}
+
+@mixin font-size($fsize){
+    font-size: $fsize;
+}
+
+@mixin linear-gradient() {
+    background: linear-gradient(rgba($blue-primary-color, 0.637),rgba($blue-tertiary-color, 0.7)),
+}

@@ -1,0 +1,21 @@
+A.Required
+
+This is your skill test interview.
+
+Guideline
+----------
+1. Use Bootstrap 4.1.3
+2. Make Responsive, Minimum Screen Size 320px.
+3. Use Modern CSS Property (Flexbox).
+4. Must be use SASS (Variables, Nesting, Partials, Import)
+5. Project deadline 30th September, 10:00 AM.
+
+B.Completed
+
+The provided psd had 15 sections. I completed 12 sections during the provided.
+
+C.Limitation
+
+To complete the question I faced few problems.
+ 1.Table are not exactly responsive Minimum Screen Size 320px.
+ 2.Fonts are not same to the psd fonts.

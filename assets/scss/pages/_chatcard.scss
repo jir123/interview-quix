@@ -1,0 +1,26 @@
+.chat {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    .media-body {
+      border : 1px solid $bg_secondary_color;
+      border-radius: 3px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  .send-message {
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.1);
+    @include box-margin-bottom(40px);
+    .form {
+      .b-right {
+        border-right: 2px solid $bg_tertiary_color;
+      }
+      .b-left {
+        border-left: 2px solid $bg_tertiary_color;
+      }
+      .input-group-prepend {
+         margin-right: 0; 
+    }
+    }
+  }

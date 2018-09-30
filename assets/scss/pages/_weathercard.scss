@@ -1,0 +1,28 @@
+.weather {
+    .card-body {
+      @include linear-gradient();
+      h4 {
+        font-weight: bold;
+        sup {
+          font-weight: 300;
+        }
+      }
+      p {
+        i{
+          font-size: 26px;
+        }
+      }
+    }
+    ul {
+      li {
+        a {
+          color: $font-primary-color;
+          font-weight: bold;
+          i {
+            color : $bg_tertiary_color;
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,62 @@
+
+//form and input customization
+.form {
+    .input-group-text {
+      padding: .375rem .75rem;
+      font-size: 16px;
+      color: #abafb3;
+      background-color: $bg_secondary_color;
+      border: 1px solid $bg_secondary_color;
+      
+      border-radius: 0;
+      i {
+        padding : 10px;
+      }
+      
+  }
+  
+    .form-control {
+      padding: 15px 12px;
+      font-size: 16px;
+      color: $bg_tertiary_color;
+      background-color: $bg_secondary_color;
+      border: 1px solid $bg_secondary_color;
+      border-radius: 0;
+    }
+  }
+ //table customization  
+ .table {
+    border:1px solid $bg_tertiary_color;
+    padding: 0 70px;
+    thead {
+      background: $bg_secondary_color;
+      th {
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 0;
+      }
+    }
+    tbody{
+      padding: 0 70px;
+      tr{
+        
+        td{
+          padding-left: 20px;
+          padding-right: 20px;
+          border: 0;
+          .media{
+            .media-body {
+              .media-heading {
+                font-size: 16px;
+                padding-left:10px;
+                padding-top: 15px;
+              }
+            }
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }

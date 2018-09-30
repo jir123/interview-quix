@@ -1,0 +1,22 @@
+.recent-comment{
+    h2 {
+      font-size: 22px;
+    }
+   .table {
+     tr {
+       th:nth-child(2) {
+        padding:30 0px;
+    }
+    td:nth-child(2) {
+      padding:30 0px;
+  }
+  th:nth-child(5) {
+    text-align: center;
+  }
+  td:nth-child(5) {
+    text-align: center;
+    color:$red-primary-color;
+  }
+     }
+   }
+  }

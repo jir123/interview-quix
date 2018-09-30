@@ -1,0 +1,87 @@
+@import 'typography';
+
+//basic
+body {
+    padding: 28px 13px 150px;
+    background: $bg_primary_color;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+  }
+h2{
+  font-size: 22px;
+  color:$font-primary-color;
+}
+h3 {
+  font-size: $font-primary-size;
+}
+a{
+  color: lighten($font-secondary-color,20%);
+}
+p {
+  font-size: 16px;
+}
+
+//custom making class
+.bg_white {
+    background:$bg_white_color;
+  }
+  .bg-gary {
+    background: $bg_secondary_color;
+  }
+  .blue-color {
+    background:$blue-primary-color;
+  }
+  .green-color {
+    background: $green-primary-color;
+  }
+  .violet-color {
+    background: $violet-primary-color;
+  }
+  .yellow-color {
+    background: $yellow-primary-color;
+  }
+  .blue-socil-color {
+    background:$blue-tertiary-color;
+  }
+  .sky-social-color{
+    background:$sky-primary-color;
+  }
+  .pink-social-color {
+    background: $pink-primary-color;
+  }
+
+  .box {
+    @include border-radius(2px);
+    @include border-shadow();
+    @include box-pading(30px);
+    @include box-margin-bottom(40px);
+  }
+
+  //ul li customization
+
+  ul {
+    list-style: none;
+
+    li {
+      i.fa-square {
+        padding: 10px;
+      };
+      font-size: 14px;
+    }
+  }
+ 
+.list-group-item {
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+    border:0;
+  }
+
+//card customization 
+  .card {
+    @include border-radius(2px);
+    @include border-shadow();
+    @include box-margin-bottom(40px);
+    border:0;
+  }
+  
+  

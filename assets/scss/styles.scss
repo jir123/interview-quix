@@ -1,0 +1,117 @@
+/* -------------------------------------------------- 
+   External import
+-----------------------------------------------------*/
+
+@import 'abstracts/variable';
+@import 'abstracts/mixin';
+@import 'abstracts/placeholder';
+@import 'base/reset';
+@import 'components/button';
+@import 'components/carousel';
+@import 'layout/form';
+
+
+/* -------------------------------------------------- 
+   All sections
+-----------------------------------------------------*/
+//At a glance one 
+@import 'pages/glanceone';
+//Recent comment
+@import 'pages/recentcomment';
+//Social side
+@import 'pages/social';
+//At a glance two
+@import 'pages/glancetwo';
+//chats
+@import 'pages/chatcard';
+//weather
+@import 'pages/weathercard';
+//team 
+@import 'pages/team';
+//Ad card
+
+/* -------------------------------------------------- 
+   flexbox layout styles
+-----------------------------------------------------*/
+
+.flex-container-fluid {
+  display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex-md-8 {
+  -webkit-order: 1;
+	-ms-flex-order: 1;
+	order: 1;
+	-webkit-flex: 1;
+	-ms-flex:1;
+  flex:1;
+ 
+}
+
+.flex-md-4 {
+  -webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-flex: 2;
+	-ms-flex:2;
+  flex:2;
+  margin-right: 2em;
+  .card-body {
+    p {
+      color: lighten($font-primary-color, 30%);
+    }
+    ul {
+      li {
+        a {
+          padding-right: 5px;
+          i{
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 5px;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.flex-card-body {
+  margin-top: 40px;
+}
+
+//flex responsive
+
+@media only screen and (max-width: 720px) {
+  .flex-container-fluid {
+    display: block;
+    margin-bottom: 2em;
+  }
+  .flex-md-8 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 0;
+  } 
+
+  .flex-md-4 {
+    margin-right: 0px;
+  }
+}
+
+.custom-progrss {
+  .barWrapper {
+      .progress {
+        height: 8px;
+      }
+  }
+}
